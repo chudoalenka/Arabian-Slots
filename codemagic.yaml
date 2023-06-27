@@ -8,17 +8,17 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.zeefun.goldenslots
+        bundle_identifier: com.zeefun.arabianslots
       groups:
         - unity_credentials
       vars:
-        UNITY_VERSION: 2021.3.15f1
-        UNITY_VERSION_CHANGESET: e8e88683f834
+        UNITY_VERSION: 2021.3.23f1
+        UNITY_VERSION_CHANGESET: 213b516bf396
         BUILD_SCRIPT: BuildIos
         UNITY_IOS_DIR: ios
         XCODE_PROJECT: "Unity-iPhone.xcodeproj"
         XCODE_SCHEME: "Unity-iPhone"
-        APP_STORE_APP_ID: 6450305857
+        APP_STORE_APP_ID: 6450718507
       cocoapods: default
     scripts:
       - name: Retrieve Used Unity Version
